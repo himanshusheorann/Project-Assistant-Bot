@@ -174,15 +174,15 @@ Project Managers are judged on **delivery speed** and **risk mitigation**. This 
 ## 🏗️ Architecture
 
 ```mermaid
-graph TD
+graph LR
     A[User Input] --> B[Prompt Engine]
-    B --> C{LLM API<br/>(GPT-4o / Claude)}
+    B --> C[LLM API]
     C --> D[3 Framework Options]
-    D --> E[User Selects Framework]
-    E --> F[Generate 5 Templates]
-    F --> G[Assumptions Checker]
-    G --> H[Final Output]
+    D --> E[User Selects]
+    E --> F[Generate Templates]
+    F --> G[Final Output]
 ```
+
 
 ---
 
